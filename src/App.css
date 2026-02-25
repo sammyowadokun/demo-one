@@ -1,4 +1,6 @@
 /* <----- Navbar -----> */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -10,7 +12,7 @@
 body {
   width: 100%;
   overflow-x: hidden;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .app {
@@ -106,7 +108,7 @@ body {
 .hero-whatsapp-btn {
   background-color: #2FA84F;
   color: white;
-  padding: 0.6rem 1.5rem 0.7rem 1.5rem;
+  padding: 0.8rem 1.5rem 0.7rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 400;
