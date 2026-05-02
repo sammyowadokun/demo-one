@@ -1,10 +1,9 @@
 import AppRoutes from "./routes/AppRoutes";
-import ScrollToTop from "./components/ScrollToTop.jsx";
 
 export default function App() {
   return (
     <>
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}   {/* Temporarily disabled */}
       <AppRoutes />    
     </>
   );
