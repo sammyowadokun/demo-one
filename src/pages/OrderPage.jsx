@@ -1,4 +1,4 @@
-import formatCurrency from "../utils/FormatCurrency";
+import formatCurrency from "../utils/FormatCurrency.js";
 import { useOrders } from "../context/useOrders";
 
 export default function OrdersPage() {

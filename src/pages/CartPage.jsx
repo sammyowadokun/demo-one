@@ -1,5 +1,5 @@
 import { useCart } from "../context/useCart";
-import formatCurrency from "../utils/FormatCurrency";
+import formatCurrency from "../utils/FormatCurrency.js";
 import { useNavigate } from "react-router-dom";
 
 export default function CartPage() {
