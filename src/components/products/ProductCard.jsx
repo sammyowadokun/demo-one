@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import formatCurrency from "../../utils/formatCurrency";
+import formatCurrency from "../utils/FormatCurrency.js";
 
 export default function ProductCard({ product }) {
   return (
