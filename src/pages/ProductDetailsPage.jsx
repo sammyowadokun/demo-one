@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import products from "../data/product";
-import formatCurrency from "../utils/FormatCurrency";
+import formatCurrency from "../utils/FormatCurrency.js";
 import { useCart } from "../context/useCart";
 
 export default function ProductDetailsPage() {
